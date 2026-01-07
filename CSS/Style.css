@@ -31,6 +31,7 @@ header{
 }
 .head-bb{
     font-size: 16px;
+    line-height: 26px;
     height: 78px;
     text-align: right;
     margin-bottom: 32px;
@@ -44,4 +45,74 @@ header{
     padding: 21px 25px;
     border-radius: 10px;
     cursor: pointer;
+}
+.midium-container{
+    max-width: 1600px;
+    width: 100%;
+    /* margin: auto; */
+}
+.img{
+    margin-top: 131px;
+    margin-left: 100px;
+    width: 570px;
+    height: 724px;
+}
+.container{
+    display: flex;
+    /* margin-top: 370px; */
+    gap: 120px;
+}
+.p{
+    margin-top: 370px;
+    width: 416px;
+    height: 400px;
+    align-items: center;
+}
+.p h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.p p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 18px;
+}
+.tick-list{
+    list-style: none;
+}
+.tick-list li::before{
+    content: "✓";
+    color: rgb(12, 190, 12);
+    font-weight: bold;
+    margin-right: 12px;
+}
+#main-container{
+    margin-top: 130px;
+    width: 1140px;
+    /* margin: 0 230px; */
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-left: 230px;
+}
+#main-container h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mid-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+#main-container .a h3{
+    font-size: 28px;
+}
+#main-container .a p{
+    color: #737272;
+    font-size: 24px;
+    margin-top: 16px;
+}
+#main-container .a{
+    text-align: center;
 }
